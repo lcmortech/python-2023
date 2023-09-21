@@ -6,3 +6,4 @@ my_list.insert(0,11) #O(n)
 
 # removing and adding is O(n)
 # removing is only O(1) if it's at the end(no need to rearrange the other indices)
+# searching by value is O(n), while searching by index to find the value is O(1)
