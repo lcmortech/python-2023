@@ -13,6 +13,10 @@ def append(self, value):
         self.tail.next = new_node
         self.tail = new_node
 
+    self.length += 1
+    # For a later method that requires the use of append and a boolean value to be returned
+    return True
+
 # def append(self, value):
 #     if head.next is None:
 #         head = next
