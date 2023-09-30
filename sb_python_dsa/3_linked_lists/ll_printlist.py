@@ -1,4 +1,4 @@
-##METHOD FOR LINKED LIST
+##PRINT METHOD FOR LINKEDLIST CLASS
 def print_list(self):
     #initiates temp at head of ll
     temp = self.head
