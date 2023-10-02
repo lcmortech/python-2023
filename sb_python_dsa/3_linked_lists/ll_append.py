@@ -1,5 +1,6 @@
 ##APPEND METHOD FOR LINKEDLIST CLASS
 # Edge cases come first
+# Self refers to the linked list itself
 
 def append(self, value):
     new_node = Node(value)
@@ -15,6 +16,23 @@ def append(self, value):
 
     self.length += 1
     # For a later method that requires the use of append and a boolean value to be returned
+    return True
+
+
+##ALT
+
+def append_2(self, value):
+    new_node = Node(value)
+
+    if self.length == 0:
+        self.head = new_node
+        self.tail = new_node
+
+    else:
+        self.tail.next = new_node
+        self.tail = new_node
+
+    self.length += 1
     return True
 
 # def append(self, value):
