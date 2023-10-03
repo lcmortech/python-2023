@@ -14,3 +14,10 @@
 # Then set tail equal to pre
 # Set tail.next to None
 # Return temp
+
+# CODE
+
+def pop(self):
+    #edge case 1
+    if self.length == 0: #if head is None and tail is None (there is nothing in the list)
+        return None
