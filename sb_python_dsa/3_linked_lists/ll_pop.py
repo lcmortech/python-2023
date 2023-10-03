@@ -21,3 +21,10 @@ def pop(self):
     #edge case 1
     if self.length == 0: #if head is None and tail is None (there is nothing in the list)
         return None
+    #orwhile temp.next is not None, if temp is pointing to a node its true until the end of the list when it isnt pointing to anything
+    while(temp.next):
+        pre = temp
+        temp = temp.next
+    self.tail = pre #only used here
+    self.tail.next = None #breaks the last node off 
+    self.length =-1 #decrements to next node (subtracts = pop)
