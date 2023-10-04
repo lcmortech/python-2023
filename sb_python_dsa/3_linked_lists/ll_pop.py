@@ -28,6 +28,7 @@ def pop(self):
     self.tail = pre #only used here
     self.tail.next = None #breaks the last node off 
     self.length =-1 #decrements to next node (subtracts = pop)
+    # if there are no more nodes left
     if self.length == 0:
         self.head = None
         self.tail = None
