@@ -14,3 +14,4 @@ def popfirst(self, value):
     if self.length == 0:
         self.tail = None
     return temp
+

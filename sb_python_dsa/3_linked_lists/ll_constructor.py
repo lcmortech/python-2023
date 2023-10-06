@@ -14,10 +14,33 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
-    # def append(self, value):
-    #     #add Node to end
-    # def prepend(self, value):
-    #     #create new Node
+    def append_2(self, value):
+        new_node = Node(value)
+
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+
+        else:
+            self.tail.next = new_node
+            self.tail = new_node
+
+        self.length += 1
+        return True
+
+    def prepend(self, value):
+        new_node = Node(value)
+
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
+        
+        else:
+            new_node.next = self.head
+            self.head = new_node
+        
+        self.length += 1
+        return True #optional
     #     #add Node to beginning
     # def insert(self, index, value):
     #     #create new Node
