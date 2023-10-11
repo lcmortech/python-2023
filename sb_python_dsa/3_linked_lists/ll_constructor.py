@@ -1,4 +1,5 @@
 #class that creates Node that each method in the ll class can call to create a new node
+# None/null as the pointer of a node means it's the last node in the ll, or the "tail" of the ll
 class Node:
     def __init__ (self, value):
         self.value = value
@@ -14,7 +15,7 @@ class LinkedList:
         self.tail = new_node
         self.length = 1
 
-    def append_2(self, value):
+    def append(self, value):
         new_node = Node(value)
 
         if self.length == 0:
