@@ -12,7 +12,9 @@ class DynamicArray:
     def insert(self, i, val): 
         pass
     def pushback(self, val): 
-        pass
+        if self.length == self.capacity:
+            self.resize()
+            
     def resize(self):
         pass
     def get_size(self):
