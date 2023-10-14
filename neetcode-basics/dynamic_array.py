@@ -3,10 +3,12 @@
 class DynamicArray:
     def _init__(self, capacity, int):
         self.capacity = capacity
+        self.length = 0
         self.arr = [0] * capacity
     
     def get(self, i): 
-        pass
+        return self.arr[i]
+    
     def insert(self, i, val): 
         pass
     def pushback(self, val): 
