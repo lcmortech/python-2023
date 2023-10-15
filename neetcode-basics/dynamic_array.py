@@ -1,6 +1,6 @@
 #CONSTRUCT A DYNAMIC ARRAY
 # Python lists are dynamic arrays by default
-
+# This is an example of what goes on under the hood
 
 class DynamicArray:
     def _init__(self, capacity, int):
