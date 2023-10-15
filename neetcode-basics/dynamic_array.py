@@ -1,4 +1,6 @@
 #CONSTRUCT A DYNAMIC ARRAY
+# Python lists are dynamic arrays by default
+
 
 class DynamicArray:
     def _init__(self, capacity, int):
@@ -14,7 +16,7 @@ class DynamicArray:
     def pushback(self, val): 
         if self.length == self.capacity:
             self.resize()
-            
+
     def resize(self):
         pass
     def get_size(self):
