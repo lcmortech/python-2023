@@ -8,11 +8,19 @@ class DynamicArray:
         self.length = 0
         self.arr = [0] * capacity
     
+    #get value at a given index
     def get(self, i): 
         return self.arr[i]
     
+    #set n at a given index:
+    def set(self, i, n):
+        self.arr[i] = n
+
+    #insert n in the last position of the array    
     def insert(self, i, val): 
-        pass
+        if self.length == self.capacity:
+            self.resize()
+
     def pushback(self, val): 
         if self.length == self.capacity:
             self.resize()
