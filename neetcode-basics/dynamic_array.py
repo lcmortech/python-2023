@@ -20,7 +20,8 @@ class DynamicArray:
     def insert(self, i, val): 
         if self.length == self.capacity:
             self.resize()
-
+            
+    # insert at next empty position
     def pushback(self, val): 
         if self.length == self.capacity:
             self.resize()
