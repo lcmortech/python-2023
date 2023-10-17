@@ -34,6 +34,6 @@ class DynamicArray:
         for i in range(self.length):
             new_arr[i] = self.arr[i]
         self.arr = new_arr
-        
+
     def get_capacity(self) -> int:
         return self.capacity
