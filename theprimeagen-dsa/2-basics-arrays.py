@@ -1,5 +1,7 @@
 ## NOTES
 
+# If const a = [] isn't an array, what is it?
+
 # When applicable:
 # I will pretend that javascript has arrays
 # I only have access to the .length property of an array.
