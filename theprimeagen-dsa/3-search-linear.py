@@ -1,0 +1,2 @@
+## NOTES
+# It's a very good practice to get into is being able to visualize the problem, discuss it with boxes and arrows, and then program it. Its definitely a core competency that will follow you for life.
