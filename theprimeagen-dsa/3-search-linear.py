@@ -3,3 +3,8 @@
 
 # What's the way something fails? If we search the entire length of the array and the item is not there
 # As your input grows so does the time it takes linearly
+
+def linear_search(haystack, targ):
+    for needle in haystack:
+        if needle == targ:
+            return True
