@@ -11,4 +11,6 @@ def linear_search(haystack, targ):
         if needle == targ:
             return True
         
+    return False
+        
 
