@@ -14,7 +14,14 @@
 # If you're returning the index, you're returning -1, or a sentinal value
 # You don't want to use less than or equal because then your pointers will cross the line and be behind each other
 # This is all under the assumption that the array is sorted. It CANNOT be done on na unsorted array/data structure
-def binarysearch(arr, hi, lo):
+import math
+
+def binarysearch(arr, targ):
     lo = 0
-    hi = len(arr)
+    hi = len(arr)-1 #add -1 because it's zero index. full length of the list as a hi point (int)
+    mid = math.floor(lo + (hi - lo)/2) # don't forget to divide by 2!
+    val = arr[mid]
+
+    while val is targ:
+
    
