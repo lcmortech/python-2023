@@ -22,7 +22,13 @@ def binarysearch(arr, targ):
     mid = math.floor(lo + (hi - lo)/2) # don't forget to divide by 2!
     val = arr[mid]
 
-    while val is targ:
-        pass
+    while lo < hi:
+        if val == targ:
+            return True
+        elif val > targ:
+            hi = mid
+        elif val < targ:
+            lo = mid + 1 # drop the midpoint. you don't want to see it again
+    return False
 
    
