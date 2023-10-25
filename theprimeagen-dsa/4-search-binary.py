@@ -23,5 +23,6 @@ def binarysearch(arr, targ):
     val = arr[mid]
 
     while val is targ:
+        pass
 
    
