@@ -31,4 +31,8 @@ def binarysearch(arr, targ):
             lo = mid + 1 # drop the midpoint. you don't want to see it again
     return False
 
+find_targ = binarysearch([5,2,6,7,8],6)
+print(find_targ)
+find_targ = binarysearch([5,2,6,7,8],11)
+print(find_targ)
    
