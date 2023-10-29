@@ -5,3 +5,18 @@
 # Any x sub-i/ith poisiton in the array is going to be less than or equal to any i+1
 # starts in 0-eth position (first position) its gonna go to the end of the array. It goes to the +1 next to it and asks, if I'm larger than you, let's swap positions.
 # A singular iteration will always produce the largest item in the last spot/position. We can go up to, but not include the last position
+# An array with one element is ALWAYS sorted
+
+def bubsort(list):
+    n_length = len(list)
+    swapped = False
+
+    for i in range(n-1):
+        for j in range(0, n-i-1):
+
+            if list[j] > list[j + 1]:
+                swapped = True
+                list[j], list[j + 1] = list[j + 1], list[j]
+
+        if not swapped:
+            return
