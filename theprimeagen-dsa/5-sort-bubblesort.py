@@ -7,6 +7,7 @@
 # A singular iteration will always produce the largest item in the last spot/position. We can go up to, but not include the last position
 # An array with one element is ALWAYS sorted
 
+#O(n^2)
 def bubsort(list):
     n_length = len(list)
     swapped = False
@@ -18,5 +19,16 @@ def bubsort(list):
                 swapped = True
                 list[j], list[j + 1] = list[j + 1], list[j]
 
+        if not swapped:
+            return
+        
+# Auxiliary Space O(1)
+def bubsortopt(elements):
+    swapped = False
+    for n in range(len(elements)-1, 0, -1):
+        for i in range(n):
+            if elements[i] > elements[i + 1]:
+                swapped = True
+                elements[i], elements[i + 1] = elements[i + 1], elements[i]
         if not swapped:
             return
