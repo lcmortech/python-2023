@@ -11,9 +11,10 @@
 # the pointer contains a reference to another value or another node
 
 ## Let's talk time/space complexity
-# prepend/append
+# prepend/append O(1)
 # insertion in the middle
-# deletion from the ends
-# deletion in the middle
-# get head/tail
-# get in general
+# deletion from the ends O(1)
+# deletion in the middle O(n)
+# get head/tail - O(1)
+# get in general O(1)
+# I recommend not traversing an n-length algorithm with a linked list
