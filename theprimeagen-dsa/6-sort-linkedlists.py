@@ -9,3 +9,11 @@
 # Our first node-based data structure
 # The node consists of an item/value and a pointer(next) that points to the next node
 # the pointer contains a reference to another value or another node
+
+## Let's talk time/space complexity
+# prepend/append
+# insertion in the middle
+# deletion from the ends
+# deletion in the middle
+# get head/tail
+# get in general
