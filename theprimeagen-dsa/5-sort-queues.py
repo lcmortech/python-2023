@@ -4,3 +4,8 @@
 # FIFO - First In First Out (like waiting in line)
 # To the whote board!
 # We use a singly linked list, we don't need  a doubly linked list
+
+# Runtime O(1) operations
+# enqueue
+# dequeue
+# peek
