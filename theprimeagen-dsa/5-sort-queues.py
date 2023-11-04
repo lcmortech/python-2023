@@ -9,3 +9,25 @@
 # enqueue
 # dequeue
 # peek
+
+# We're entering a world of DSA where constraints make things fast
+# You will notice pretty much everything from here on out that what makes a lot of these data structures fast is the lack of features.
+
+# CODE
+class Node:
+    def __init__(self, value) -> None:
+        self.value = value
+        self.next = next
+
+class Queue:
+    def __init__(self) -> None:
+        pass
+
+    def enqueue():
+        pass
+
+    def dequeue():
+        pass
+
+    def peek():
+        pass
