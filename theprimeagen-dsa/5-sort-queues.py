@@ -21,7 +21,13 @@ class Node:
 
 class Queue:
     def __init__(self) -> None:
-        pass
+        new_node = Node(None)
+        self.head = None
+
+        if self.head is not None:
+            new_node.next = self.head
+            self.head = new_node
+
 
     def enqueue():
         pass
