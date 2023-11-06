@@ -27,7 +27,7 @@ class Queue:
         # self.head = Node(None)
         # self.tail = None   
 
-    def enqueue(): #push
+    def enqueue(self): #push
         new_node = Node(None)
         self.head = None
 
@@ -35,8 +35,8 @@ class Queue:
             new_node.next = self.head
             self.head = new_node
 
-    def dequeue():
+    def dequeue(self):
         pass
 
-    def peek():
-        pass
+    def peek(self):
+        return self.head.value
