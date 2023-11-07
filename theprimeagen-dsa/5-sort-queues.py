@@ -36,7 +36,9 @@ class Queue:
             self.head = new_node
 
     def dequeue(self):
-        pass
+        if self.head is None:
+            return None
+        self.length -= 1
 
     def peek(self):
         return self.head.value
