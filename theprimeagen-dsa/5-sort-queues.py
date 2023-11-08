@@ -40,7 +40,13 @@ class Queue:
             return None
         self.length -= 1
 
-        return self.value
+        head = self.head
+        self.head = self.head.next
+
+        # free
+        head.next = None
+
+        return head.value
 
     def peek(self):
         return self.head.value
