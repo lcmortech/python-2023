@@ -29,11 +29,22 @@ class Queue:
 
     def enqueue(self): #push
         new_node = Node(None)
-        self.head = None
+        self.length+= 1
+        if self.tail is None:
+            self.tail = self.head = new_node
 
-        if self.head is not None:
-            new_node.next = self.head
-            self.head = new_node
+        new_node = self.tail.next
+        self.tail = new_node
+
+
+
+        # ALT
+        # new_node = Node(None)
+        # self.head = None
+
+        # if self.head is not None:
+        #     new_node.next = self.head
+        #     self.head = new_node
 
     def dequeue(self):
         if self.head is None:
