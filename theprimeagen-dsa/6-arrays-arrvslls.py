@@ -5,4 +5,4 @@
 # Time
 # Space (whiteboard)
 
-# Arrays vs Linked ListsS
+# Arrays vs Linked Lists
