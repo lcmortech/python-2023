@@ -1,7 +1,7 @@
 def move_zeroes(nums):
     pt = len(nums)-1
 
-    for i,j in enumerate(nums):
+    for i,j in enumerate(nums): #prints both the index and its corresponding elements
         print(i,j)
 
     for num in range(0, len(nums)-1):
