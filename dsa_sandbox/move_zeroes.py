@@ -12,6 +12,6 @@ def move_zeroes(nums):
 
     return nums
 
-# test case
+# test case: move all zeroes to the back
 test = move_zeroes([0,4,0,3,0,6,0,7,0,4,0])
 print(test)
