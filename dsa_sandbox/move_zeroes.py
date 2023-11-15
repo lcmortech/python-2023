@@ -15,3 +15,4 @@ def move_zeroes(nums):
 # test case: move all zeroes to the back
 test = move_zeroes([0,4,0,3,7,6,0,7,0,4, 5])
 print(test)
+# can't get last 7 to move
