@@ -26,9 +26,13 @@ def move_zeroes(arr):
     pt = len(arr)-1
 
     for i in range(0, pt):
-        if arr[i] == 0:
+        
+        if arr[pt] == 0:
+            pass
+        elif arr[i] == 0:
             arr[i], arr[pt] = arr[pt], arr[i]
-            move_zeroes(pt - 1)
+            pt -= 1
+    return arr
 
 
 # test case
