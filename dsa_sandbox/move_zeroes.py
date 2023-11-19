@@ -39,4 +39,3 @@ def move_zeroes(arr):
 test = move_zeroes([0,4,0,3,7,6,0,7,0,4,5])
 print(test)
 # one zero switches with a zero at the end (edge case), leaving a zero behind
-# possibly fix with recursion?
