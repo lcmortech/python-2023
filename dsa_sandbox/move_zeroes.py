@@ -27,7 +27,7 @@ def move_zeroes(arr):
 
     for i in range(0, pt):
         
-        if arr[pt] == 0:
+        if arr[pt] < arr[i]:
             pass
         elif arr[i] == 0:
             arr[i], arr[pt] = arr[pt], arr[i]
