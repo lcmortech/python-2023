@@ -30,7 +30,7 @@ def move_zeroes(arr):
         if arr[pt] < arr[i]:
             arr[pt] += 1
         elif arr[i] == 0:
-            arr[i], arr[pt] = arr[pt], arr[i]
+            arr[i], arr[pt] = arr[pt], arr[i] #swap elements
             pt -= 1
     return arr
 
