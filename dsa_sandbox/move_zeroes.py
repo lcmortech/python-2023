@@ -27,10 +27,10 @@ def move_zeroes(arr):
 
     for i in range(0, pt):
         
-        if arr[pt] == 0:
-            arr[pt] += 1
-            arr[i], arr[pt] = arr[pt], arr[i]
-        elif arr[i] == 0:
+        # if arr[pt] == 0:
+        #     arr[pt] += 1
+        #    arr[i], arr[pt] = arr[pt], arr[i]
+        if arr[i] == 0:
             arr[i], arr[pt] = arr[pt], arr[i] #swap elements
             pt -= 1
     return arr
