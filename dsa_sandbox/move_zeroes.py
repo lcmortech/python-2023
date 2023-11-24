@@ -18,3 +18,4 @@ def move_zeroes(nums):
 test = move_zeroes([0,4,0,3,7,6,0,7,0,4,5])
 print(test)
 # can't get last 7 to move
+# thanksgivng day
