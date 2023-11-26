@@ -4,3 +4,4 @@
 # Just add +1 to the head or tail, which makes them O(1) operations
 # You can also use the modulo operato this.tail % len (typescript) gives you your index into the array
 # Acts as a ring buffer
+# Done in typescript in original demo, will have to figure out in python
