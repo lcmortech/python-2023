@@ -4,21 +4,35 @@
 # If the index is out of range, the program should print "i is out of range"
 # If the string is empty, the program should print "Empty String"
 
+# def char_dex(str, char):
+#     str_length = len(str)-1
+
+#     for i in range(0, str_length):
+#         if str == '':
+#             return "Empty String"
+#         elif i > len(str):
+#             return "i is out of range"
+#         elif str[i] == str[char]:
+#             return str[char]
+#     return str
+
+# #test 
+# test1 = 'happy'
+# test2 = ''
+# print(char_dex(test2, 1))
+
+# Solution 2
+
 def char_dex(str, char):
     str_length = len(str)-1
+
     for i in range(0, str_length):
-
-        if str == '':
-            return "Empty String"
-        elif i > len(str):
-            return "i is out of range"
-        elif str[i] == str[char]:
+        if str[i] == str[char]:
             return str[char]
-    return str
+        elif i < len(str):
+            return "i is out of range"
+        else:
+            return "Empty String"
 
-#test 
-test1 = 'happy'
-test2 = ''
-print(char_dex(test2, 1))
 
         
