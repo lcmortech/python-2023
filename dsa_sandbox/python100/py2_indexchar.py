@@ -23,16 +23,30 @@
 
 # Solution 2
 
+# def char_dex(str, char):
+#     str_length = len(str)-1
+
+#     for i in range(0, str_length):
+#         if str[i] == str[char]:
+#             return str[char]
+#         elif i < len(str):
+#             return "i is out of range"
+#         else:
+#             return "Empty String"
+
+
+# Actual Solution
+
 def char_dex(str, char):
     str_length = len(str)-1
 
     for i in range(0, str_length):
-        if str[i] == str[char]:
-            return str[char]
-        elif i < len(str):
-            return "i is out of range"
-        else:
+        if len(str) == 0:
             return "Empty String"
+        elif i < len(str):
+            return str[i]
+        else:
+            return "i is out of range"
 
 
         
