@@ -13,13 +13,12 @@ def char_dex(str, char):
         elif i > len(str):
             return "i is out of range"
         elif str[i] == str[char]:
-            return str[i]
-        else:
-            return "Char not found"
+            return str[char]
+    return str
 
 #test 
 test1 = 'happy'
 test2 = ''
-print(char_dex(test1, 2))
+print(char_dex(test2, 1))
 
         
