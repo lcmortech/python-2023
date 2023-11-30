@@ -38,7 +38,8 @@ def move_zeroes(arr):
 
 # test case
 test = move_zeroes([0,4,0,3,7,6,0,7,0,4,5])
-test2 = move_zeroes([0,0,3,5,7,8,4,6,0,8,7,5,6,5,0,3])
+# test2 = move_zeroes([0,0,3,5,7,8,4,6,0,8,7,5,6,5,0,3])
+test2 = move_zeroes([1,0,2,4])
 print(test2)
 # one zero switches with a zero at the end (edge case), leaving a zero behind
 
