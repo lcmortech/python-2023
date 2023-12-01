@@ -22,25 +22,32 @@
 # # one zero switches with a zero at the end (edge case), leaving a zero behind
 # # possibly fix with recursion?
 
-def move_zeroes(arr):
-    pt = len(arr)-1
+# def move_zeroes(arr):
+#     pt = len(arr)-1
 
-    for i in range(0, pt):
+#     for i in range(0, pt):
         
-        # if arr[pt] == 0:
-        #     arr[pt] += 1
-        #    arr[i], arr[pt] = arr[pt], arr[i]
-        if arr[i] == 0:
-            arr[i], arr[pt] = arr[pt], arr[i] #swap elements
-            pt -= 1
-    return arr
+#         # if arr[pt] == 0:
+#         #     arr[pt] += 1
+#         #    arr[i], arr[pt] = arr[pt], arr[i]
+#         if arr[i] == 0:
+#             arr[i], arr[pt] = arr[pt], arr[i] #swap elements
+#             pt -= 1
+#     return arr
 
+def move_zeroes(arr):
+
+    for i in arr:
+        if i == 0:
+            arr.remove(i)
+            arr.append(i)
+    return arr
 
 # test case
 test = move_zeroes([0,4,0,3,7,6,0,7,0,4,5])
 # test2 = move_zeroes([0,0,3,5,7,8,4,6,0,8,7,5,6,5,0,3])
 test2 = move_zeroes([1,0,2,4])
-print(test2)
+print(test)
 # one zero switches with a zero at the end (edge case), leaving a zero behind
 
 # NOTES
