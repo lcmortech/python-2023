@@ -35,12 +35,21 @@
 #             pt -= 1
 #     return arr
 
-def move_zeroes(arr):
+# def move_zeroes(arr): #WORKING
 
-    for i in arr:
-        if i == 0:
-            arr.remove(i)
-            arr.append(i)
+#     for i in arr:
+#         if i == 0:
+#             arr.remove(i)
+#             arr.append(i)
+#     return arr
+
+def move_zeroes(arr):
+    count = 0
+
+    for i in range(len(arr)):
+        if i != 0:
+            arr[i],arr[count] = arr[count], arr[i]
+            count += 1
     return arr
 
 # test case
