@@ -49,4 +49,7 @@ def char_dex(str, char):
             return "i is out of range"
 
 
+#test
+test = char_dex('book', 3)
+print(test)
         
