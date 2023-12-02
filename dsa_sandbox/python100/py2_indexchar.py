@@ -51,5 +51,6 @@ def char_dex(str, char):
 
 #test
 test = char_dex('book', 3)
+test2 = char_dex('block', 1)
 print(test)
         
