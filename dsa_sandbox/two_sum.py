@@ -12,7 +12,7 @@
 #     return new_nums
 
 
-#Hashmap
+#Hashmap O(n)
 def two_sum(nums, t):
     new_map = {}
     count = len(nums)
@@ -24,7 +24,7 @@ def two_sum(nums, t):
         
     return []
 
-#TEST O(n)
+#TEST 
 
 test = two_sum([3,6,4,5,], 6)
 test2 = two_sum([3,6,4,5,], 10)
