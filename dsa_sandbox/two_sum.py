@@ -15,7 +15,7 @@
 #Hashmap O(n)
 def two_sum(nums, t):
     new_map = {} #create a dictionary instead of a list
-    count = len(nums)
+    count = len(nums) #intiate a counter using the length of the inputted list
 
     for i in range(count):
         diff = t - nums[i]
