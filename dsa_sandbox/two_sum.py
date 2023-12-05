@@ -14,7 +14,7 @@
 
 #Hashmap O(n)
 def two_sum(nums, t):
-    new_map = {}
+    new_map = {} #create a dictionary instead of a list
     count = len(nums)
 
     for i in range(count):
