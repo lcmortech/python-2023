@@ -17,7 +17,7 @@ def two_sum(nums, t):
     new_map = {} #create a dictionary instead of a list
     count = len(nums) #intiate a counter using the length of the inputted list
 
-    for i in range(count):
+    for i in range(count): # for each index in the length of nums
         diff = t - nums[i]
         if diff in new_map:
             return [new_map[diff], i]
