@@ -18,7 +18,7 @@ def two_sum(nums, t):
     count = len(nums) #intiate a counter using the length of the inputted list
 
     for i in range(count): # for each index in the length of nums
-        diff = t - nums[i]
+        diff = t - nums[i] # variable that is the difference between the target number from two items
         if diff in new_map:
             return [new_map[diff], i]
         
