@@ -19,8 +19,8 @@ def two_sum(nums, t):
 
     for i in range(count): # for each index in the length of nums
         diff = t - nums[i] # variable that is the difference between the target number(vsl) from two items(val)
-        if diff in new_map: #if the diff of the target number is in the dictionary
-            return [new_map[diff], i]
+        if diff in new_map: # if the diff of the target number is in the dictionary
+            return [new_map[diff], i] # return the sum if found (val found added to the diff that makes the target(sum))
         
     return []
 
