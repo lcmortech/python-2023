@@ -5,4 +5,5 @@ class Node:
 
 class LinkedList:
     def __init__(self):
-        
+        self.head = head
+        self.tail = tail
