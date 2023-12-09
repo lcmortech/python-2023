@@ -17,3 +17,5 @@ class LinkedList:
                 return curr_node.val #return its value (curr_node.val)
             i += 1 # if not, move on to the next node
             curr_node = curr_node.next # this is why its important to make next a feature of node list (allows navigation)
+        
+        return -1 #if the index params is out of bounds or there are no nodes/list is empty
