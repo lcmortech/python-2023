@@ -23,8 +23,8 @@ class LinkedList:
     def insert_head(self, val):
         new_node = Node(val) # create new node
 
-        new_node.next = self.head.next
-        self.head.next = new_node
+        new_node.next = self.head.next # attach new_node to the node following the current head
+        self.head.next = new_node # make the new node the next node of the current head
 
         if not new_node.next: #if the list is empty
             self.tail = new_node
