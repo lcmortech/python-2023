@@ -21,7 +21,7 @@ class LinkedList:
         return -1 #if the index params is out of bounds or there are no nodes/list is empty
 
     def insert_head(self, val):
-        new_node = Node(val) # create new node
+        new_node = Node(val) # create a new node
 
         new_node.next = self.head.next # attach new_node to the node following the current head
         self.head.next = new_node # make the new node the next node of the current head
@@ -30,5 +30,5 @@ class LinkedList:
             self.tail = new_node
     
     def insert_tail(self, val): # insert tail
-        self.tail.next = Node(val)
+        self.tail.next = Node(val) # create a new node
         self.tail = self.tail.next
