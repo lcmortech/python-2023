@@ -28,3 +28,7 @@ class LinkedList:
 
         if not new_node.next: #if the list is empty
             self.tail = new_node
+    
+    def insert_tail(self, val): # insert tail
+        self.tail.next = Node(val)
+        self.tail = self.tail.next
