@@ -40,3 +40,10 @@ class LinkedList:
         while i < index and curr:
             i += 1
             curr = curr.next
+
+        if curr and curr.next: # if curr node and a following node exist
+            if curr.next == self.tail:
+                self.tail = curr
+            curr.next = curr.next.next
+            return True
+        return False
