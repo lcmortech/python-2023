@@ -32,3 +32,11 @@ class LinkedList:
     def insert_tail(self, val): # insert tail
         self.tail.next = Node(val) # create a new node
         self.tail = self.tail.next
+
+    def remove(self, index):
+        pt = 0
+        curr = self.head
+
+        while i < index and curr:
+            i += 1
+            curr = curr.next
