@@ -49,9 +49,9 @@ class LinkedList:
         return False
 
     def get_values(self):
-        curr = self.head.next
-        res = []
-        while curr:
-            res.append(curr.val)
-            curr = curr.next
-        return res
+        curr = self.head.next # initiate curr node, set to head.next
+        res = [] # initiate empty list
+        while curr: # while going thru the linkedlist,
+            res.append(curr.val) # add the curr val of each node to res
+            curr = curr.next # iterate to next node
+        return res # else if listnode is empty, return empty res
