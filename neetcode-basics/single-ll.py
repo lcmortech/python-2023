@@ -47,3 +47,11 @@ class LinkedList:
             curr.next = curr.next.next
             return True
         return False
+
+    def get_values(self):
+        curr = self.head.next
+        res = []
+        while curr:
+            res.append(curr.val)
+            curr = curr.next
+        return res
