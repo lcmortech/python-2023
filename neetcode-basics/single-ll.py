@@ -1,3 +1,8 @@
+# NOTES
+
+# Design a singly linked list class. Your linkedlist class should support the following operations:
+
+
 class Node:
     def __init__(self) -> None:
         self.val = val
