@@ -3,17 +3,17 @@
 # Design a singly linked list class. Your linkedlist class should support the following operations:
 
 
-class Node:
+class Node: # Initializes an empty node with a val and next pointer
     def __init__(self) -> None:
         self.val = val
         self.next = None
 
-class LinkedList:
+class LinkedList: # Initializes an empty linked list
     def __init__(self):
         self.head = head
         self.tail = tail
 
-    def get_index(self, index):
+    def get_index(self, index): # returns the value of the i-th note
         curr_node = self.head.next # switch current node to next node
         i = 0 # initiate counter/pointer at first node (head)
 
@@ -25,7 +25,7 @@ class LinkedList:
         
         return -1 #if the index params is out of bounds or there are no nodes/list is empty
 
-    def insert_head(self, val):
+    def insert_head(self, val): # inserts a node with val at head
         new_node = Node(val) # create a new node
 
         new_node.next = self.head.next # attach new_node to the node following the current head
@@ -34,11 +34,11 @@ class LinkedList:
         if not new_node.next: #if the list is empty
             self.tail = new_node
     
-    def insert_tail(self, val): # insert tail
+    def insert_tail(self, val): # inserts a node with val at tail
         self.tail.next = Node(val) # create a new node
         self.tail = self.tail.next
 
-    def remove(self, index):
+    def remove(self, index): # removes the i-th node
         pt = 0
         curr = self.head
 
@@ -53,7 +53,7 @@ class LinkedList:
             return True
         return False
 
-    def get_values(self):
+    def get_values(self): # returns an array of all the vals in the list
         curr = self.head.next # initiate curr node, set to head.next
         res = [] # initiate empty list
         while curr: # while going thru the linkedlist,
