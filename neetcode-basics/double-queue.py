@@ -8,3 +8,9 @@
 # get_front
 # empty
 # full 
+
+# Alternatively: Python has a built in double queue method: deque()
+
+from collections import deque
+
+my_deque = deque:
