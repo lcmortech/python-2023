@@ -13,4 +13,4 @@
 
 from collections import deque
 
-my_deque = deque:
+my_deque = deque()
