@@ -1,5 +1,6 @@
 # NOTES
 
+#FIFO Data Structure (First In First Out (Queque))
 # Methods needed:
 # push_back
 # pop_back
