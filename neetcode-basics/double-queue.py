@@ -11,6 +11,11 @@
 
 # Alternatively: Python has a built in double queue method: deque()
 
-from collections import deque
+# from collections import deque
 
-my_deque = deque()
+# my_deque = deque()
+
+def double_que(list):
+    count = 0
+
+
