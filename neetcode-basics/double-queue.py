@@ -3,6 +3,8 @@
 #A queque is known as a FIFO Data Structure (First In First Out (Queque))
 #Unlike a single queue, with a double queue, you can end and take things from either end
 
+# caught coviid
+
 # Methods needed:
 # push_back
 # pop_back
