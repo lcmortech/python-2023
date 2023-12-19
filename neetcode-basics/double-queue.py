@@ -23,4 +23,7 @@ class Node:
         self.val = val
         self.next = next
 
+class Dequeue:
+    def __init__(self):
+        self.head = self.tail = None
 
