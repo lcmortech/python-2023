@@ -6,7 +6,7 @@
 # caught covid on mon (taking a break) (tues)
 #covid day2 (wed)
 #covid day3 (thurs)
-#covid day4
+#covid day4 (fri)
 
 # Methods needed:
 # push_back
