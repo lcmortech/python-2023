@@ -7,6 +7,7 @@
 #covid day2 (wed)
 #covid day3 (thurs)
 #covid day4 (fri)
+#covid day6 (sat)
 
 # Methods needed:
 # push_back
