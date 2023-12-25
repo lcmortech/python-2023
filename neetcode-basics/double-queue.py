@@ -9,7 +9,7 @@
 #covid day4 (fri)
 #covid day5 (sat)
 #covid and christmas eve break (sun) (hope to feel better soon)
-#covid break day6 and merry christmas (mon)
+#covid break day6 and merry christmas! (mon)
 
 # Methods needed:
 # push_back
