@@ -8,7 +8,7 @@
 #covid day3 (thurs)
 #covid day4 (fri)
 #covid day5 (sat)
-#covid and christmas eve break (sun)
+#covid and christmas eve break (sun) (hope to feel better soon)
 
 # Methods needed:
 # push_back
