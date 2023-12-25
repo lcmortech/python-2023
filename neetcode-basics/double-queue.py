@@ -8,6 +8,7 @@
 #covid day3 (thurs)
 #covid day4 (fri)
 #covid day5 (sat)
+#covid and christmas eve break (sun)
 
 # Methods needed:
 # push_back
