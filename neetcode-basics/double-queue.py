@@ -26,12 +26,14 @@
 
 # my_deque = deque()
 
-class Node:
-    def __init__(self, val):
-        self.val = val
-        self.next = next
+#class Node:
+    #def __init__(self, val):
+       # self.val = val
+       # self.next = next
 
 #class Dequeue:
-    def __init__(self):
-        self.head = self.tail = None
+
+
+    #def __init__(self):
+       # self.head = self.tail = None
 
