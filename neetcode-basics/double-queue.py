@@ -26,6 +26,13 @@
 # deleteFront()
 # deleteRear()
 
+#Add Alt
+# getFront()
+# getRear()
+# isEmpty()
+# size()
+# erase()
+
 
 # Alternatively: Python has a built in double queue method: deque()
 
