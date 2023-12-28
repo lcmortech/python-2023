@@ -20,6 +20,13 @@
 # empty
 # full 
 
+# Alt Methods (simpler)
+# insertFront()
+# insertRear()
+# deleteFront()
+# deleteRear()
+
+
 # Alternatively: Python has a built in double queue method: deque()
 
 # from collections import deque
