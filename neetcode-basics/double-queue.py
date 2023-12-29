@@ -51,6 +51,7 @@
     #def __init__(self):
        # self.head = self.tail = None
 
+# Example from Pythonds:
 class Deque:
     def __init__(self):
         self.items = []
