@@ -54,7 +54,7 @@
 # Example from Pythonds:
 class Deque:
     def __init__(self):
-        self.items = []
+        self.items = [] # initiate stack
 
     def isEmpty(self):
         return self.items == []
