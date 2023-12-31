@@ -1,7 +1,7 @@
 # NOTES
 
 #A queque is known as a FIFO Data Structure (First In First Out (Queque))
-#Unlike a single queue, with a double queue, you can end and take things from either end
+#Unlike a single queue, with a double queue, you can add and take things from either end
 
 # caught covid on mon (taking a break) (tues)
 #covid day2 (wed)
