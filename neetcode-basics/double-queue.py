@@ -59,7 +59,7 @@ class Deque:
     def isEmpty(self):
         return self.items == [] # return stack if empty
 
-    def addFront (self, item):
+    def addFront (self, item): # add item to stack
         self.items.append(item)
     
     def removeFront(self):
