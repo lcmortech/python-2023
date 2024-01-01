@@ -62,7 +62,7 @@ class Deque:
     def addFront (self, item): # add item to stack
         self.items.append(item)
     
-    def removeFront(self):
+    def removeFront(self): # remove front item of stack
         return self.items.pop()
 
     def removeRear(self):
