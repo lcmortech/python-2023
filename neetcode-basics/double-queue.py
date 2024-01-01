@@ -65,7 +65,7 @@ class Deque:
     def removeFront(self): # remove front item of stack
         return self.items.pop()
 
-    def removeRear(self):
+    def removeRear(self): # remove last item in stack
         return self.items.pop(0)
 
     def size (self):
