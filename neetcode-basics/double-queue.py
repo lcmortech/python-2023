@@ -68,5 +68,5 @@ class Deque:
     def removeRear(self): # remove last item in stack
         return self.items.pop(0)
 
-    def size (self):
+    def size (self): # returns the full size/length of the stack
         return len(self.items)
