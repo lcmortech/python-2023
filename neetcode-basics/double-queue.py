@@ -46,7 +46,7 @@ class Node:
         self.val = val
         self.next = next
 
-#class Dequeue:
+#class Deque:
 
 
     #def __init__(self):
@@ -71,3 +71,4 @@ class Deque:
 
     def size (self): # returns the full size/length of the stack
         return len(self.items)
+
