@@ -12,3 +12,6 @@ class Node:
 def inorder(root):
     if root is not None:
         inorder(root.left) # traverse left
+
+    if root is None: # return if tree is empty
+        return root
