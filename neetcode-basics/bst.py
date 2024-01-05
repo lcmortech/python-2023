@@ -7,3 +7,8 @@ class Node:
         self.key = key
         self.left = None
         self.right = None
+
+# inorder traversal
+def inorder(root):
+    if root is not None:
+        inorder(root.left) # traverse left
