@@ -18,4 +18,7 @@ def inorder(root):
 
     # traverse root
     print(str(root.key) + "->", end= ' ')
+
+    # traverse right
+    inorder(root.right)
     
