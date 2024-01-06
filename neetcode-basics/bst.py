@@ -15,3 +15,7 @@ def inorder(root):
 
     if root is None: # return if tree is empty
         return root
+
+    # traverse root
+    print(str(root.key) + "->", end= ' ')
+    
