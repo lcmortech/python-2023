@@ -21,4 +21,11 @@ def inorder(root):
 
     # traverse right
     inorder(root.right)
-    
+
+
+# Insert a node
+def insert(node, key):
+
+    # Return a new node is the tree is empty
+    if node is None:
+        return Node(key)
