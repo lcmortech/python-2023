@@ -29,3 +29,9 @@ def insert(node, key):
     # Return a new node is the tree is empty
     if node is None:
         return Node(key)
+
+    # Traverse to the right place and insert the node
+    if key < node.key:
+        node.left = insert(node.left, key)
+    else:
+        node.right = insert(node.right, key)
