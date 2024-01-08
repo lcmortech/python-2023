@@ -35,3 +35,5 @@ def insert(node, key):
         node.left = insert(node.left, key)
     else:
         node.right = insert(node.right, key)
+
+    return node
