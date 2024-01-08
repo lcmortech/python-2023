@@ -37,3 +37,7 @@ def insert(node, key):
         node.right = insert(node.right, key)
 
     return node
+
+# Find the inorder successor
+def miniValueNode(node):
+    current = node
