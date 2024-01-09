@@ -45,3 +45,5 @@ def miniValueNode(node):
     # Find the leftmost leaf
     while(current.left is not None):
         current = current.left
+
+        return current
