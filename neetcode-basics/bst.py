@@ -41,3 +41,7 @@ def insert(node, key):
 # Find the inorder successor
 def miniValueNode(node):
     current = node
+
+    # Find the leftmost leaf
+    while(current.left is not None):
+        current = current.left
