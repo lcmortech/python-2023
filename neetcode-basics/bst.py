@@ -47,3 +47,15 @@ def miniValueNode(node):
         current = current.left
 
         return current
+
+# Deleting a node
+def deletenode(root, key):
+
+    # Return if key is empty
+    if root is None:
+        return root
+
+    # Find the node to be deleted
+    if key < root.key:
+        root.left = deleteNode(root.left, key)
+
