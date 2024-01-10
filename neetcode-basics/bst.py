@@ -58,4 +58,8 @@ def deletenode(root, key):
     # Find the node to be deleted
     if key < root.key:
         root.left = deleteNode(root.left, key)
+    elif(key > root.key):
+        root.right = deleteNode(root.right, key)
+    else:
+        # If the node is with only one child or no child
 
