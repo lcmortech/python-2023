@@ -67,4 +67,8 @@ def deletenode(root, key):
             root = None
             return temp
 
+    elif root.right is None:
+        temp = root.left
+        root = None
+        return temp
 
