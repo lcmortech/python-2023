@@ -62,4 +62,9 @@ def deletenode(root, key):
         root.right = deleteNode(root.right, key)
     else:
         # If the node is with only one child or no child
+        if root.left is None:
+            temp = root.right
+            root = None
+            return temp
+
 
