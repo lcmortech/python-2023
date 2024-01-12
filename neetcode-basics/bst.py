@@ -75,5 +75,10 @@ def deletenode(root, key):
     # If the node has two children,place the inorder successor in the node to be deleted
     temp = miniValueNode(root.right)
 
-    
+    # Delete the inorder successor
+    root.right = deleteNode(root.right, temp.key)
+
+return root
+
+
 
