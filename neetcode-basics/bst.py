@@ -1,4 +1,4 @@
-# Binary Search Tree Implementation in Python
+# Binary Search Tree Implementation in Python (Programiz)
 
 # Create a node
 
@@ -71,4 +71,9 @@ def deletenode(root, key):
         temp = root.left
         root = None
         return temp
+
+    # If the node has two children,place the inorder successor in the node to be deleted
+    temp = miniValueNode(root.right)
+
+    
 
