@@ -82,3 +82,7 @@ return root
 
 
 
+root = None
+root = insert(root, 8)
+
+
