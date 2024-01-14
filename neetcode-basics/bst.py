@@ -94,3 +94,4 @@ root = insert(root, 4)
 
 # Test case
 print("Inorder traversal", ends=' ')
+inorder(root)
