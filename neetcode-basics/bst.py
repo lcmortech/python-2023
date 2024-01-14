@@ -91,3 +91,6 @@ root = insert(root, 7)
 root = insert(root, 10)
 root = insert(root, 14)
 root = insert(root, 4)
+
+# Test case
+print("Inorder traversal", ends=' ')
