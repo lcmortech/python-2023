@@ -16,3 +16,8 @@ def checkPrime(n):
 def getPrime(n):
     if n % 2 == 0:
         n = n + 1
+
+    while not checkPrime(n):
+        n += 2
+
+    return n
