@@ -25,3 +25,7 @@ def getPrime(n):
 def hashFunction(key):
     capacity = getPrime(10)
     return key % capacity
+
+def insertData(key, data):
+    index = hashFunction(key)
+    hashTable[index] = [key, data]
