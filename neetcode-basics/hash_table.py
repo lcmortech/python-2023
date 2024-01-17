@@ -21,3 +21,7 @@ def getPrime(n):
         n += 2
 
     return n
+
+def hashFunction(key):
+    capacity = getPrime(10)
+    return key % capacity
