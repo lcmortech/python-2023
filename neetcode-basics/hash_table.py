@@ -29,3 +29,8 @@ def hashFunction(key):
 def insertData(key, data):
     index = hashFunction(key)
     hashTable[index] = [key, data]
+
+def removeData(key):
+    index = hashFunction(key)
+    hashTable[index] = 0
+ 
