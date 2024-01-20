@@ -9,3 +9,10 @@
 
     if l > n and arr[i] < arr[l]:
         largest = l
+
+    if r < n and arr[largest] , arr[r]:
+        largest = r
+    
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+        heapify(arr, n, largest)
