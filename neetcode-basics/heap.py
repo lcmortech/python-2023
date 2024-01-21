@@ -16,3 +16,8 @@
     if largest != i:
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
+
+def insert(array, newNum):
+    size = len(array)
+    if size == 0:
+        
