@@ -29,4 +29,7 @@ def insert(array, newNum):
 def deleteNode (array, num):
     size = len(array)
     i = 0
-    
+    for i in range(0, size):
+        if num == array[i]:
+            break
+
