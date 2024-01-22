@@ -25,3 +25,8 @@ def insert(array, newNum):
         array.append(newNum):
         for i in range((size//2)-1, -1, -1):
             heapify(array, size, i)
+
+def deleteNode (array, num):
+    size = len(array)
+    i = 0
+    
