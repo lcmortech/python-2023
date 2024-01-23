@@ -33,3 +33,6 @@ def deleteNode (array, num):
         if num == array[i]:
             break
 
+    array[i], array[size-1] = array[size-1], array[i]
+
+    array.remove(num)
