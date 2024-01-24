@@ -41,3 +41,9 @@ def deleteNode (array, num):
         heapify(array, len(array), i)
 
 arr = []
+
+insert(arr, 3)
+insert(arr, 4)
+insert(arr, 9)
+insert(arr, 5)
+insert(arr, 2)
