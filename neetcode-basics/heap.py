@@ -39,3 +39,5 @@ def deleteNode (array, num):
 
     for i in range((len(array)//2)-1, -1, -1):
         heapify(array, len(array), i)
+
+arr = []
