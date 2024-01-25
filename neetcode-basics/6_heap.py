@@ -55,3 +55,4 @@ deleteNode(arr, 4)
 print("After deleting an element: " + str(arr))
 
 #emergency
+#emergency 2
