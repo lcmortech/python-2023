@@ -57,5 +57,5 @@ print("After deleting an element: " + str(arr))
 #emergency
 #emergency 2
 #emergency 3 (had operation)
-#emergency 4
+#emergency 4 (mri/cat scan)
 
