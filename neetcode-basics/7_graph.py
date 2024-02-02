@@ -13,3 +13,9 @@
 # A collection of vertices (V)
 # A collection of edges (E), represented as ordered pairs of vertices
 # (U,V)
+
+# V = {0, 1, 2, 3}
+# E = {{0,1}, {0,2}, {1,2}}
+# G = {V, E}
+
+
