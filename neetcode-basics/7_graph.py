@@ -29,7 +29,10 @@
 
 # If value of any element a[i][j] is 1, it represents that there is an edge connecting vertex i and vertex j.
 
-# The adjacency matrix for the graph we created above is
+# The adjacency matrix for the graph we created above is:
+
+# Since it is an undirected graph, for edge (0,2), we also need to mark edge (2,0); making the adjacency matrix symmetric about the diagonal.
+
 # 2. Adjacency List - An adjacency list represents a graph as an array of linked lists. 
 
 # The index of the array represents a vertex and each element in its linked list represents the other vertives that form an edge with the vertex.
