@@ -23,7 +23,7 @@
 # Path: A sequence of edges that allows you to go from vertex A to vertex B is called a path. 0-1, 1-2, and 0-2 are paths from vertex 0 to vertex 2.
 # Directed Graph: A graph in which an edge (u,v) doesn't necessarily mean that there is an edge (v, u) as well. The edges in such a graph are represented by arrows to show the direction of the edge.
 
-# Graph Representation:
+# Graph Representation
 # Graphs are commonly represented in two ways:
 # 1. Adjacency Matrix - An adjacency matrix is a 2D array of V x V vertices. Each row and column represent a vertex.
 
@@ -39,11 +39,11 @@
 
 # The index of the array represents a vertex and each element in its linked list represents the other vertives that form an edge with the vertex.
 
-# The adjacency list for the graph we made in the first exampl is as follows:
+# The adjacency list for the graph we made in the first exampl is as follows
 
 # An adjacency list is efficient in terms of storage because we only need to store the values for the edges. For a graph with millions of vertices, this can mean a lot of saved space.
 
-# Graph Operations:
+# Graph Operations
 # The most common graph operations are:
 # Check if the element is present in the graph
 # Graph Traversal
