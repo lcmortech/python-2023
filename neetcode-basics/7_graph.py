@@ -42,3 +42,10 @@
 # The adjacency list for the graph we made in the first exampl is as follows:
 
 # An adjacency list is efficient in terms of storage because we only need to store the values for the edges. For a graph with millions of vertices, this can mean a lot of saved space.
+
+# Graph Operations:
+# The most common graph operations are:
+# Check if the element is present in the graph
+# Graph Traversal
+# Add elements(vertex,edges) to graph
+# Finding the path from one vertex to another
