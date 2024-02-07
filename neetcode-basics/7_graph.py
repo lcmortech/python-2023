@@ -50,9 +50,12 @@
 # Add elements(vertex,edges) to graph
 # Finding the path from one vertex to another
 
-graph = {'A': ['B', 'C'],
-        'B': ['C', 'D'],
-        'C': ['D'],
-        'D': ['C'],
-        'E': ['F'],
-        'F': ['C']}
+# This graph is a dictionary with six nodes
+# graph = {'A': ['B', 'C'],
+#        'B': ['C', 'D'],
+#        'C': ['D'],
+#        'D': ['C'],
+#        'E': ['F'],
+#        'F': ['C']}
+
+
