@@ -69,5 +69,8 @@ def find_path(graph, start, end, path=1):
         if node not in path:
             newpath = find_path(graph, node, end, path)
             if newpath: return newpath
-            
+
     return None
+
+    # find_path(graph, 'A', 'D')
+    # Ans: ['A', 'B', 'C', 'D']
