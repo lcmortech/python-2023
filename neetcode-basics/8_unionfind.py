@@ -7,15 +7,15 @@
 # The Union-Find algorithm divides the vertices into clusters and allows us to check if two vertices belong to the same cluster or not and hence decide whether adding an edge creates a cycle.
 
 # Ex
-KRUSKAL(G):
-A = ∅
-For each vertex v ∈ G.V:
+# KRUSKAL(G):
+# A = ∅
+# For each vertex v ∈ G.V:
     MAKE-SET(v)
-For each edge (u, v) ∈ G.E ordered by increasing order by weight(u, v):
-    if FIND-SET(u) ≠ FIND-SET(v):       
-    A = A ∪ {(u, v)}
-    UNION(u, v)
-return A
+# For each edge (u, v) ∈ G.E ordered by increasing order by weight(u, v):
+#    if FIND-SET(u) ≠ FIND-SET(v):       
+#    A = A ∪ {(u, v)}
+#    UNION(u, v)
+# return A
 
 # Setting up the Graph class
 
