@@ -15,3 +15,7 @@
 # What is the height of a segment tree of a given array?
 
 # Height of the segment tree will be ⌈log₂N⌉. Since the tree is represented using array and relation between parent and child indexes must be maintained, size of memory allocated for segment tree will be (2 * 2⌈log2n⌉  – 1).
+
+# Query for sum of a given range
+
+# Once the tree is constructed, we need to get the sum using the constructed segment tree.
