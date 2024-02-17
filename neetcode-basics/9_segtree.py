@@ -19,3 +19,16 @@
 # Query for sum of a given range
 
 # Once the tree is constructed, we need to get the sum using the constructed segment tree.
+
+# Implementation (CodeSpeedy)
+
+# function to build the segmenttree array
+def buildTree(a):
+    # insert leaf nodes in tree
+    for i in range(n):
+        tree[n + i] = a[i]
+
+    # creating parent node by adding left and right child
+    for i in range(n - 1, 0, -1):
+        tree[i] = tree[2*i] + tree[2*i+1]
+
