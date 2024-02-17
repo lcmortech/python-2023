@@ -32,3 +32,16 @@ def buildTree(a):
     for i in range(n - 1, 0, -1):
         tree[i] = tree[2*i] + tree[2*i+1]
 
+# function to update a node of the tree
+def updateTree(index, value):
+    # set value at position index 
+    tree[index + n] = value
+    index+=n
+
+    # after updating the child node,update parents
+    i = index
+
+    while i > 1: 
+    #update parent by adding new left and right child
+        tree[i//2] = tree[i] + tree[i^1]
+        i =i//2
