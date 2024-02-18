@@ -45,3 +45,26 @@ def updateTree(index, value):
     #update parent by adding new left and right child
         tree[i//2] = tree[i] + tree[i^1]
         i =i//2
+
+#function to find sum on different range 
+def queryTree(l, r):
+    sum = 0
+
+    #to find the sum in the range [l,r)
+    l += n
+    r += n
+
+    while l < r:
+
+        if ((l & 1)>0):
+            sum += tree[l]
+            l += 1
+
+        if ((r & 1)>0):
+            r -= 1
+            sum += tree[r]
+
+        l =l// 2
+        r =r// 2
+
+    return sum
