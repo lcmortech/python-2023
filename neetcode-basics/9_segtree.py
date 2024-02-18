@@ -68,3 +68,12 @@ def queryTree(l, r):
         r =r// 2
 
     return sum
+
+# To check these three non-recursive functions, we have to write the main function:
+if __name__ == "__main__":
+    A = [1, 2, 3, 4, 5, 6, 7,8]
+    n = len(A)
+    buildTree(A)
+    print(queryTree(1, 4))
+    updateTree(2, 5)
+    print(queryTree(1, 4))
