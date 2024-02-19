@@ -77,3 +77,7 @@ if __name__ == "__main__":
     print(queryTree(1, 4))
     updateTree(2, 5)
     print(queryTree(1, 4))
+
+# Output
+# // 9
+# // 11
