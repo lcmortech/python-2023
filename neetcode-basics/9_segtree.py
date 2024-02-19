@@ -81,3 +81,13 @@ if __name__ == "__main__":
 # Output
 # // 9
 # // 11
+
+# Final Notes
+# Segment Tree is basically a data structure. It can be used to perform range queries and updates in an easy and fastest way.
+# To understand Segment Tree we have to take an array first.
+# Let’s take an array A=[1,3,5,6,7,-3,6,2] of length 8 indexed from 0 to 7 and we have to solve problems called range queries and updates.
+# 1. Range queries mean to determine the sum of different segments of the given array. Example-sum(0,3)=1+3+5+6=15  (Here 0 and 3 represent the index no. of the given array).
+# 2. update means to change the value of a specified element of the given array to a new value. Example-If we perform an update(3,5), then the array becomes A=[1,3,5,5,7,-3,6,2] (Here 3 represents the index of the array, whose value to be changed and 5 represent the new or updated value).
+# 3. After performing the update, the sum(0,3) becomes 14(1+3+5+5) because of updating the value of the element index 3.
+
+# So, We can use Segment Tree to perform both the operations(range queries and update) in O(log n) time.
