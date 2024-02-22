@@ -37,8 +37,3 @@ def insertionSort(array):
         # Place key at after the element just smaller than it.
         array[j + 1] = key
 
-
-data = [9, 5, 1, 4, 3]
-insertionSort(data)
-print('Sorted Array in Ascending Order:')
-print(data)
