@@ -12,3 +12,7 @@
 # THE DIVIDE AND CONQUER TECHNIQUE
 
 # Using the Divide and Conquer technique, we divide a problem into subproblems. When the solution to each subproblem is ready, we 'combine' the results from the subproblems to solve the main problem.
+
+# EXAMPLE
+
+# Suppose we had to sort an array A. A subproblem would be to sort a sub-section of this array starting at index p and ending at index r, denoted as A[p..r].
