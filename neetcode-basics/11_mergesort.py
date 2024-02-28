@@ -16,3 +16,7 @@
 # EXAMPLE
 
 # Suppose we had to sort an array A. A subproblem would be to sort a sub-section of this array starting at index p and ending at index r, denoted as A[p..r].
+
+# DIVIDE
+
+# If q is the half-way point between p and r, then we can split the subarray A[p..r] into two arrays A[p..q] and A[q+1, r].
