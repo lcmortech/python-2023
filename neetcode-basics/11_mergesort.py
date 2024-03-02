@@ -39,3 +39,5 @@ MergeSort(A, p, r):
     mergeSort(A, p, q)
     mergeSort(A, q+1, r)
     merge(A, p, q, r)
+
+# To sort an entire array, we need to call MergeSort(A, 0, length(A)-1).
