@@ -43,3 +43,7 @@ MergeSort(A, p, r):
 # To sort an entire array, we need to call MergeSort(A, 0, length(A)-1).
 
 # As shown in the example below, the merge sort algorithm recursively divides the array into halves until we reach the base case of array with 1 element. After that, the merge function picks up the sorted sub-arrays and merges them to gradually sort the entire array.
+
+# The merge Step of Merge Sort
+
+# Every recursive algorithm is dependent on a base case and the ability to combine the results from base cases. Merge sort is no different. The most important part of the merge sort algorithm is, you guessed it, merge step.
