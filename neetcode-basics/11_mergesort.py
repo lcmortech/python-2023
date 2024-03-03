@@ -47,3 +47,7 @@ MergeSort(A, p, r):
 # The merge Step of Merge Sort
 
 # Every recursive algorithm is dependent on a base case and the ability to combine the results from base cases. Merge sort is no different. The most important part of the merge sort algorithm is, you guessed it, merge step.
+
+# The merge step is the solution to the simple problem of merging two sorted lists(arrays) to build one large sorted list(array).
+
+# The algorithm maintains three pointers, one for each of the two arrays and one for maintaining the current index of the final sorted array.
