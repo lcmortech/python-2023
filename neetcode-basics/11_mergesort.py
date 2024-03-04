@@ -59,3 +59,5 @@ MergeSort(A, p, r):
 #        Move pointer of element containing #smaller element
 #    Yes:
 #        Copy all remaining elements of non-empty array
+
+# Since there are no more elements remaining in the second array, and we know that both the arrays were sorted when we started, we can copy the remaining elements from the first array directly.
