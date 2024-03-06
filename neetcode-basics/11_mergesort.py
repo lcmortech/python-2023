@@ -67,3 +67,16 @@ MergeSort(A, p, r):
 # A noticeable difference between the merging step we described above and the one we use for merge sort is that we only perform the merge function on consecutive sub-arrays.
 
 # This is why we only need the array, the first position, the last index of the first subarray(we can calculate the first index of the second subarray) and the last index of the second subarray.
+
+# Our task is to merge two subarrays A[p..q] and A[q+1..r] to create a sorted array A[p..r]. So the inputs to the function are A, p, q and r
+
+# The merge function works as follows:
+
+# Create copies of the subarrays L <- A[p..q] and M <- A[q+1..r].
+# Create three pointers i, j and k
+#i maintains current index of L, starting at 1
+# j maintains current index of M, starting at 1
+# k maintains the current index of A[p..q], starting at p.
+# Until we reach the end of either L or M, pick the larger among the elements from L and M and place them in the correct position at A[p..q]
+# When we run out of elements in either L or M, pick up the remaining elements and put in A[p..q]
+# In code, this would look like:
