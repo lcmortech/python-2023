@@ -83,6 +83,8 @@ MergeSort(A, p, r):
 
 # =========STEPS====
 
+# Step 1: Create duplicate copies of sub-arrays to be sorted
+
 
 
 # ==========END======
