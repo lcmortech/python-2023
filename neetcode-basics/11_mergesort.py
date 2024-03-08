@@ -87,6 +87,8 @@ MergeSort(A, p, r):
 
 # Step 2: Maintain current index of sub-arrays and main array
 
+# Step 3: Until we reach the end of either L or M, pick larger among elements L and M and place them in the correct position at A[p..r]
+
 # ==========END======
 
 # MergeSort in Python
