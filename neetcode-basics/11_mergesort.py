@@ -85,6 +85,7 @@ MergeSort(A, p, r):
 
 # Step 1: Create duplicate copies of sub-arrays to be sorted
 
+# Step 2: Maintain current index of sub-arrays and main array
 
 # ==========END======
 
