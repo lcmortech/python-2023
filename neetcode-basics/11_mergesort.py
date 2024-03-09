@@ -89,6 +89,8 @@ MergeSort(A, p, r):
 
 # Step 3: Until we reach the end of either L or M, pick larger among elements L and M and place them in the correct position at A[p..r]
 
+# Step 4: When we run out of elements in either L or M, pick up the remaining elements and put in A[p..r]
+
 # ==========END======
 
 # MergeSort in Python
