@@ -91,6 +91,10 @@ MergeSort(A, p, r):
 
 # Step 4: When we run out of elements in either L or M, pick up the remaining elements and put in A[p..r]
 
+# This step would have been needed if the size of M was greater than L.
+
+# At the end of the merge function, the subarray A[p..r] is sorted.
+
 # ==========END======
 
 # MergeSort in Python
