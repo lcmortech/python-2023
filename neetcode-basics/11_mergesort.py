@@ -155,3 +155,11 @@ if __name__ == '__main__':
 
 # push test on new device
 # test successful
+
+
+# Time Complexity
+# Best Case Complexity: O(n*log n)
+# Worst Case Complexity: O(n*log n)
+# Average Case Complexity: O(n*log n)
+# Space Complexity
+# The space complexity of merge sort is O(n).
