@@ -14,3 +14,5 @@
 # 1. Select the Pivot Element
 # There are different variations of quicksort where the pivot element is selected from different positions. Here, we will be selecting the rightmost element of the array as the pivot element.
 
+# 2. Rearrange the Array
+# Now the elements of the array are rearranged so that elements that are smaller than the pivot are put on the left and the elements greater than the pivot are put on the right.
