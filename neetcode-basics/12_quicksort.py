@@ -16,3 +16,6 @@
 
 # 2. Rearrange the Array
 # Now the elements of the array are rearranged so that elements that are smaller than the pivot are put on the left and the elements greater than the pivot are put on the right.
+
+## Here's how we rearrange the array:
+# 1. A pointer is fixed at the pivot element. The pivot element is compared with the elements beginning from the first index.
