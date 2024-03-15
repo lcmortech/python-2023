@@ -22,4 +22,6 @@
 
 # If the element is greater than the pivot element, a second pointer is set for that element.
 
-# If the element is greater than the pivot element, a second pointer is set for that element.
+# 2. If the element is greater than the pivot element, a second pointer is set for that element.
+
+# 3. Now, pivot is compared with other elements. If an element smaller than the pivot element is reached, the smaller element is swapped with the greater element found earlier.
