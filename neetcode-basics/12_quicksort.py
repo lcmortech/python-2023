@@ -21,3 +21,5 @@
 # 1. A pointer is fixed at the pivot element. The pivot element is compared with the elements beginning from the first index.
 
 # If the element is greater than the pivot element, a second pointer is set for that element.
+
+# If the element is greater than the pivot element, a second pointer is set for that element.
