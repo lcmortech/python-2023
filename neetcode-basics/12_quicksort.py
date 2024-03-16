@@ -27,3 +27,5 @@
 # 3. Now, pivot is compared with other elements. If an element smaller than the pivot element is reached, the smaller element is swapped with the greater element found earlier.
 
 # 4. Again, the process is repeated to set the next greater element as the second pointer. And, swap it with another smaller element.
+
+# 5. The process goes on until the second last element is reached.
