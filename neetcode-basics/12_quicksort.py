@@ -31,3 +31,9 @@
 # 5. The process goes on until the second last element is reached.
 
 # 6. Finally, the pivot element is swapped with the second pointer.
+
+#
+
+# 3. Divide Subarrays
+
+# Pivot elements are again chosen for the left and the right sub-parts separately. And, step 2 is repeated.
