@@ -29,3 +29,5 @@
 # 4. Again, the process is repeated to set the next greater element as the second pointer. And, swap it with another smaller element.
 
 # 5. The process goes on until the second last element is reached.
+
+# 6. Finally, the pivot element is swapped with the second pointer.
