@@ -35,5 +35,7 @@
 #
 
 # 3. Divide Subarrays
-
 # Pivot elements are again chosen for the left and the right sub-parts separately. And, step 2 is repeated.
+
+# The subarrays are divided until each subarray is formed of a single element. At this point, the array is already sorted.
+
