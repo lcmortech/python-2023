@@ -94,3 +94,12 @@ quickSort(data, 0, size - 1)
 
 print('Sorted Array in Ascending Order:')
 print(data)
+
+# Quicksort Complexity
+
+#Time Complexity	 
+#Best	O(n*log n)
+#Worst	O(n2)
+#Average	O(n*log n)
+#Space Complexity	O(log n)
+#Stability	No
