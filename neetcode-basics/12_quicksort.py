@@ -116,3 +116,6 @@ print(data)
 #It occurs when the pivot element is always the middle element or near to the middle element.
 #Average Case Complexity [Big-theta]: O(n*log n)
 #It occurs when the above conditions do not occur.
+
+# 2. Space Complexity
+#The space complexity for quicksort is O(log n).
