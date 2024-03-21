@@ -119,3 +119,10 @@ print(data)
 
 # 2. Space Complexity
 #The space complexity for quicksort is O(log n).
+
+# Quicksort Applications
+# Quicksort algorithm is used when
+
+# the programming language is good for recursion
+# time complexity matters
+# space complexity matters
