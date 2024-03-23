@@ -3,4 +3,4 @@
 # Lesson 1: Console Printing
 print('Hello World')
 
-# emergency power outage today
+# EMERGENCY power outage today
