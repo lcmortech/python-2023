@@ -4,3 +4,6 @@
 print('Hello World')
 
 # EMERGENCY power outage today
+
+# Lesson 2: String Manipulation
+print("Hello" + " " + "User")
