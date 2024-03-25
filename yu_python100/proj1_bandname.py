@@ -7,3 +7,6 @@ print('Hello World')
 
 # Lesson 2: String Manipulation
 print("Hello" + " " + "User")
+
+# Lesson 3: Input Function
+input("What is your name?")
