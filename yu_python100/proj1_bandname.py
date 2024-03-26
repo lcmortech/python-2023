@@ -10,3 +10,4 @@ print("Hello" + " " + "User")
 
 # Lesson 3: Input Function
 input("What is your name?")
+print("Hello" + input("What is your name?") + "!")
