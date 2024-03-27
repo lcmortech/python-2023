@@ -18,3 +18,7 @@ print(name)
 
 name = "Jack"
 print(name)
+
+# Lesson 5: Variable Naming
+name = "Coder"
+print(name)
