@@ -22,3 +22,8 @@ print(name)
 # Lesson 5: Variable Naming
 name = "Coder"
 print(name)
+
+
+# PROJECT 1: BAND NAME GENERATOR
+# 1. Create a greeting for your program
+# 2. Ask the user for the city they grew up in
