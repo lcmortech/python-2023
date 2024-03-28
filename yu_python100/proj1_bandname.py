@@ -26,4 +26,6 @@ print(name)
 
 # PROJECT 1: BAND NAME GENERATOR
 # 1. Create a greeting for your program
+print("Welcome to band name generator!")
 # 2. Ask the user for the city they grew up in
+city = input("Which city did you grow up in?")
