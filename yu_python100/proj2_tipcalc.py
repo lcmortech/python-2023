@@ -9,3 +9,4 @@ print(len("Hello"))
 # String Subscripting
 print("Hello"[0]) # //"H"
 print("Hello"[-1]) #//"o"
+print("123" + "456")
