@@ -11,5 +11,7 @@ print("Hello"[0]) # //"H"
 print("Hello"[-1]) #//"o"
 print("123" + "456") #// "123456"
 
+# Number Data Types
+
 # Ints
 # Floats
