@@ -11,6 +11,9 @@ print("Hello"[0]) # //"H"
 print("Hello"[-1]) #//"o"
 print("123" + "456") #// "123456"
 
+#You can also replace commas with underscores
+123_456
+
 # Number Data Types
 
 # Ints
