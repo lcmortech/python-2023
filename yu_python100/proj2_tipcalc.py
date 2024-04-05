@@ -15,3 +15,4 @@ print("123" + "456") #// "123456"
 
 # Ints
 # Floats
+# Booleans
