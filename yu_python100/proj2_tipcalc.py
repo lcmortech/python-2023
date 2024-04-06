@@ -16,6 +16,6 @@ print("123" + "456") #// "123456"
 
 # Number Data Types
 
-# Ints
-# Floats
-# Booleans
+# Ints - Normal Numbers
+# Floats - Decimals 
+# Booleans - Truth values, 1 or 0
