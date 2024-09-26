@@ -22,5 +22,12 @@ def recur_factorial(num):
 
     return fact
 
+# clean code
+def recur_factorial(num):
+    if num == 1: return n
+    else: return num * recur_factorial(num) # recur_factorial(num) not placed in a variable this time
+
+print(recur_factorial(5))
+
 
     
