@@ -13,3 +13,6 @@ def tog():
         window.configure(bg = "gray")
     else:
         window.configure(bg = "yellow")
+
+#creates a button to call toggle function
+btn_tog = Button(window, text = "Switch", command = tog)
